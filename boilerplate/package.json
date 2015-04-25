@@ -15,7 +15,7 @@
     "node": ">=0.10.0"
   },
   "scripts": {
-    "start": "atom-shell .",
+    "start": "electron .",
     "build": "atom-shell-packager . $npm_package_productName --prune --ignore=node_modules/atom-shell"
   },
   "files": [
@@ -27,7 +27,7 @@
     "electron-app"
   ],
   "devDependencies": {
-    "atom-shell": "^0.22.3-1",
+    "electron-prebuilt": "^0.24.0",
     "atom-shell-packager": "^2.1.1"
   }
 }
