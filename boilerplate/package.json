@@ -16,7 +16,7 @@
   },
   "scripts": {
     "start": "electron .",
-    "build": "electron-packager . $npm_package_productName --prune --ignore=node_modules/electron-prebuilt --ignore=node_modules/electron-packager --ignore=.git"
+    "build": "electron-packager . $npm_package_productName --prune --asar --ignore=node_modules/electron-prebuilt --ignore=node_modules/electron-packager --ignore=.git"
   },
   "files": [
     "index.js",
@@ -27,7 +27,7 @@
     "electron-app"
   ],
   "devDependencies": {
-    "electron-packager": "^3.1.0",
-    "electron-prebuilt": "^0.25.1"
+    "electron-packager": "^3.3.0",
+    "electron-prebuilt": "^0.25.2"
   }
 }
