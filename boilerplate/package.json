@@ -14,9 +14,13 @@
   "engines": {
     "node": ">=0.10.0"
   },
+  "electronVersion": "0.26.0",
   "scripts": {
     "start": "electron .",
-    "build": "electron-packager . $npm_package_productName --prune --asar --ignore=node_modules/electron-prebuilt --ignore=node_modules/electron-packager --ignore=.git"
+    "build-osx": "trash dist --force && electron-packager . $npm_package_productName --prune --asar --platform=darwin --arch=x64 --version=$npm_package_electronVersion --out=dist",
+    "build-linux": "trash dist --force && electron-packager . $npm_package_productName --prune --asar --platform=linux --arch=x64 --version=$npm_package_electronVersion --out=dist",
+    "build-win": "trash dist --force && electron-packager . $npm_package_productName --prune --asar --platform=win32 --arch=x64 --version=$npm_package_electronVersion --out=dist",
+    "build": "npm run build-osx & npm run build-linux & npm run build-win"
   },
   "files": [
     "index.js",
@@ -27,7 +31,8 @@
     "electron-app"
   ],
   "devDependencies": {
-    "electron-packager": "^3.3.0",
-    "electron-prebuilt": "^0.25.2"
+    "electron-packager": "^4.0.3",
+    "electron-prebuilt": "^0.26.0",
+    "trash": "^1.4.1"
   }
 }
