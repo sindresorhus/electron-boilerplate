@@ -16,7 +16,7 @@
   },
   "scripts": {
     "start": "electron .",
-    "build": "electron-packager . $npm_package_productName --prune --asar --platform=darwin --arch=x64 --version=0.27.2"
+    "build": "electron-packager . $npm_package_productName --prune --asar --platform=darwin --arch=x64 --version=0.28.1"
   },
   "files": [
     "index.js",
@@ -31,6 +31,6 @@
   },
   "devDependencies": {
     "electron-packager": "^4.1.2",
-    "electron-prebuilt": "^0.27.2"
+    "electron-prebuilt": "^0.28.1"
   }
 }
