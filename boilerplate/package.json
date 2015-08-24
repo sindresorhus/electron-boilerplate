@@ -15,6 +15,7 @@
     "node": ">=0.10.0"
   },
   "scripts": {
+    "test": "xo",
     "start": "electron .",
     "build": "electron-packager . $npm_package_productName --out=dist --ignore='^/dist$' --prune --asar --all --version=0.31.0"
   },
@@ -31,6 +32,13 @@
   },
   "devDependencies": {
     "electron-packager": "^5.0.0",
-    "electron-prebuilt": "^0.31.0"
+    "electron-prebuilt": "^0.31.0",
+    "xo": "^0.7.1"
+  },
+  "xo": {
+    "esnext": true,
+    "rules": {
+      "prefer-arrow-callback": 0
+    }
   }
 }
