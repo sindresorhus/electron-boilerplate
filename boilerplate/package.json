@@ -16,7 +16,7 @@
   },
   "scripts": {
     "start": "electron .",
-    "build": "electron-packager . $npm_package_productName --out=dist --ignore='^/dist$' --prune --asar --all --version=0.30.4"
+    "build": "electron-packager . $npm_package_productName --out=dist --ignore='^/dist$' --prune --asar --all --version=0.31.0"
   },
   "files": [
     "index.js",
@@ -31,6 +31,6 @@
   },
   "devDependencies": {
     "electron-packager": "^5.0.0",
-    "electron-prebuilt": "^0.30.4"
+    "electron-prebuilt": "^0.31.0"
   }
 }
