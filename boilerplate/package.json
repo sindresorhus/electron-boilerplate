@@ -15,8 +15,8 @@
     "node": ">=0.10.0"
   },
   "scripts": {
-    "start": "electron .",
-    "build": "electron-packager . $npm_package_productName --out=dist --ignore='^/dist$' --prune --asar --all --version=0.30.4"
+    "start": "./node_modules/.bin/electron .",
+    "build": "./node_modules/.bin/electron-packager . $npm_package_productName --out=dist --ignore='^/dist$' --prune --asar --all --version=0.30.4"
   },
   "files": [
     "index.js",
