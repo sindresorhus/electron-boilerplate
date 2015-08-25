@@ -37,6 +37,10 @@
   },
   "xo": {
     "esnext": true,
+    "envs": [
+      "node",
+      "browser"
+    ],
     "rules": {
       "prefer-arrow-callback": 0
     }
