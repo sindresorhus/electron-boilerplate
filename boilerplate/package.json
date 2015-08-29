@@ -4,7 +4,6 @@
   "version": "0.0.0",
   "description": "",
   "license": "MIT",
-  "main": "index.js",
   "repository": "user/repo",
   "author": {
     "name": "",
