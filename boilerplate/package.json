@@ -11,12 +11,13 @@
     "url": ""
   },
   "engines": {
-    "node": ">=0.10.0"
+    "node": ">=4"
   },
+  "electronVersion": "0.33.0",
   "scripts": {
     "test": "xo",
     "start": "electron .",
-    "build": "electron-packager . $npm_package_productName --out=dist --ignore='^/dist$' --prune --asar --all --version=0.31.1"
+    "build": "electron-packager . $npm_package_productName --out=dist --ignore='^/dist$' --prune --asar --all --version=$npm_package_electronVersion"
   },
   "files": [
     "index.js",
@@ -27,21 +28,18 @@
     "electron-app"
   ],
   "dependencies": {
-    "electron-debug": "^0.1.1"
+    "electron-debug": "^0.2.1"
   },
   "devDependencies": {
     "electron-packager": "^5.0.0",
-    "electron-prebuilt": "^0.31.1",
-    "xo": "^0.7.1"
+    "electron-prebuilt": "^0.33.0",
+    "xo": "^0.9.0"
   },
   "xo": {
     "esnext": true,
     "envs": [
       "node",
       "browser"
-    ],
-    "rules": {
-      "prefer-arrow-callback": 0
-    }
+    ]
   }
 }
