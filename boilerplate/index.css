@@ -4,6 +4,10 @@ body {
 	margin: 0;
 }
 
+body {
+	font-family: -apple-system, 'Helvetica Neue', Helvetica, sans-serif;
+}
+
 header {
 	position: absolute;
 	width: 500px;
@@ -16,7 +20,6 @@ header {
 }
 
 header h1 {
-	font-family: 'Helvetica Neue', Helvetica, sans-serif;
 	font-size: 60px;
 	font-weight: 100;
 	margin: 0;
