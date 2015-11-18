@@ -1,6 +1,6 @@
 'use strict';
-const app = require('app');
-const BrowserWindow = require('browser-window');
+const electron = require('electron');
+const app = electron.app;
 
 // report crashes to the Electron project
 require('crash-reporter').start();
@@ -18,12 +18,12 @@ function onClosed() {
 }
 
 function createMainWindow() {
-	const win = new BrowserWindow({
+	const win = new electron.BrowserWindow({
 		width: 600,
 		height: 400
 	});
 
-	win.loadUrl(`file://${__dirname}/index.html`);
+	win.loadURL(`file://${__dirname}/index.html`);
 	win.on('closed', onClosed);
 
 	return win;

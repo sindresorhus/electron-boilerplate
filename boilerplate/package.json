@@ -10,10 +10,7 @@
     "email": "",
     "url": ""
   },
-  "engines": {
-    "node": ">=4"
-  },
-  "electronVersion": "0.34.1",
+  "electronVersion": "0.35.0",
   "scripts": {
     "test": "xo",
     "start": "electron .",
@@ -25,15 +22,16 @@
     "index.css"
   ],
   "keywords": [
-    "electron-app"
+    "electron-app",
+    "electron"
   ],
   "dependencies": {
-    "electron-debug": "^0.3.0"
+    "electron-debug": "^0.5.0"
   },
   "devDependencies": {
     "electron-packager": "^5.0.0",
-    "electron-prebuilt": "^0.34.1",
-    "xo": "^0.10.0"
+    "electron-prebuilt": "^0.35.0",
+    "xo": "^0.11.1"
   },
   "xo": {
     "esnext": true,
