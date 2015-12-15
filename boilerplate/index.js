@@ -35,7 +35,7 @@ app.on('window-all-closed', () => {
 	}
 });
 
-app.on('activate-with-no-open-windows', () => {
+app.on('activate', () => {
 	if (!mainWindow) {
 		mainWindow = createMainWindow();
 	}
