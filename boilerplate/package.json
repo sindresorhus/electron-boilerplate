@@ -10,7 +10,7 @@
     "email": "",
     "url": ""
   },
-  "electronVersion": "0.35.0",
+  "electronVersion": "0.36.0",
   "scripts": {
     "test": "xo",
     "start": "electron .",
@@ -30,8 +30,8 @@
   },
   "devDependencies": {
     "electron-packager": "^5.0.0",
-    "electron-prebuilt": "^0.35.0",
-    "xo": "^0.11.1"
+    "electron-prebuilt": "^0.36.0",
+    "xo": "^0.12.0"
   },
   "xo": {
     "esnext": true,
