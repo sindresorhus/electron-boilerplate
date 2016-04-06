@@ -2,9 +2,6 @@
 const electron = require('electron');
 const app = electron.app;
 
-// report crashes to the Electron project
-require('crash-reporter').start();
-
 // adds debug features like hotkeys for triggering dev tools and reload
 require('electron-debug')();
 
