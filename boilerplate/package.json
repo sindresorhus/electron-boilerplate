@@ -25,10 +25,10 @@
     "electron"
   ],
   "dependencies": {
-    "electron-debug": "^0.5.0"
+    "electron-debug": "^0.6.0"
   },
   "devDependencies": {
-    "electron-packager": "^6.0.0",
+    "electron-packager": "^7.0.0",
     "electron-prebuilt": "^0.37.5",
     "xo": "^0.14.0"
   },
