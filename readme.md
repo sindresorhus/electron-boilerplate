@@ -4,6 +4,12 @@
 
 *See [awesome-electron](https://github.com/sindresorhus/awesome-electron) for more useful Electron resources.*
 
+---
+
+<p align="center"><b>⚛ Learn React in just a couple of afternoons with this awesome <a href="https://ReactForBeginners.com/friend/AWESOME">React course</a> by Wes Bos</b></p>
+
+---
+
 
 ## Getting started
 
