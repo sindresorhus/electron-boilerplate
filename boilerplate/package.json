@@ -13,7 +13,7 @@
   "scripts": {
     "test": "xo",
     "start": "electron .",
-    "build": "electron-packager . --out=dist --app-version=$npm_package_version --prune --asar --overwrite --all"
+    "build": "electron-packager . --out=dist --asar --overwrite --all"
   },
   "files": [
     "index.js",
@@ -29,7 +29,7 @@
   },
   "devDependencies": {
     "devtron": "^1.1.0",
-    "electron-packager": "^7.0.0",
+    "electron-packager": "^8.0.0",
     "electron": "^1.0.1",
     "xo": "^0.16.0"
   },
