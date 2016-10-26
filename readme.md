@@ -1,4 +1,4 @@
-# electron-boilerplate
+# electron-boilerplate [![XO code style](https://img.shields.io/badge/code_style-XO-5ed9c7.svg)](https://github.com/sindresorhus/xo)
 
 > Boilerplate to kickstart creating an app with [Electron](https://github.com/atom/electron)
 
