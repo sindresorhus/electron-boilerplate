@@ -3,9 +3,6 @@ const electron = require('electron');
 
 const app = electron.app;
 
-// adds debug features like hotkeys for triggering dev tools and reload
-require('electron-debug')();
-
 // prevent window being garbage collected
 let mainWindow;
 
