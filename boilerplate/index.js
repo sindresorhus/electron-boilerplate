@@ -3,15 +3,15 @@ const electron = require('electron');
 
 const app = electron.app;
 
-// adds debug features like hotkeys for triggering dev tools and reload
+// Adds debug features like hotkeys for triggering dev tools and reload
 require('electron-debug')();
 
-// prevent window being garbage collected
+// Prevent window being garbage collected
 let mainWindow;
 
 function onClosed() {
-	// dereference the window
-	// for multiple windows store them in an array
+	// Dereference the window
+	// For multiple windows store them in an array
 	mainWindow = null;
 }
 

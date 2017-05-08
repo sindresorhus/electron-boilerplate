@@ -15,26 +15,16 @@
     "start": "electron .",
     "build": "electron-packager . --out=dist --asar --overwrite --all"
   },
-  "files": [
-    "index.js",
-    "index.html",
-    "index.css"
-  ],
-  "keywords": [
-    "electron-app",
-    "electron"
-  ],
   "dependencies": {
     "electron-debug": "^1.0.0"
   },
   "devDependencies": {
     "devtron": "^1.1.0",
     "electron-packager": "^8.0.0",
-    "electron": "^1.0.1",
-    "xo": "^0.16.0"
+    "electron": "^1.6.6",
+    "xo": "^0.18.0"
   },
   "xo": {
-    "esnext": true,
     "envs": [
       "node",
       "browser"

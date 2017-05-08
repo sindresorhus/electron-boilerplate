@@ -6,7 +6,7 @@
 
 ---
 
-<p align="center"><b>⚛ Learn React in just a couple of afternoons with this awesome <a href="https://ReactForBeginners.com/friend/AWESOME">React course</a> by Wes Bos</b></p>
+<p align="center"><b>⚛ Learn React in just a couple of afternoons with this awesome <a href="https://ReactForBeginners.com/friend/AWESOME">React course</a> by Wes Bos</b><br><sub>Try his free <a href="https://javascript30.com/friend/AWESOME">JavaScript 30</a> course for a taste of what to expect and check out his <a href="https://learnnode.com/friend/AWESOME">Node.js</a>, <a href="https://ES6.io/friend/AWESOME">ES6</a>, <a href="https://ReactForBeginners.com/friend/AWESOME">React</a>, <a href="https://SublimeTextBook.com/friend/AWESOME">Sublime</a> courses.</sub></p>
 
 ---
 
