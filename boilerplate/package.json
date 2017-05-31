@@ -22,6 +22,7 @@
     "devtron": "^1.1.0",
     "electron-packager": "^8.0.0",
     "electron": "^1.6.6",
+    "electron-debug": "^1.1.0",
     "xo": "^0.18.0"
   },
   "xo": {
