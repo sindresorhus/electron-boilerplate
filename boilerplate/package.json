@@ -13,15 +13,15 @@
   "scripts": {
     "test": "xo",
     "start": "electron .",
-    "build": "build --dir -mwl",
-    "dist": "build -mwl"
+    "build": "electron-builder --dir -mwl",
+    "dist": "electron-builder -mwl"
   },
   "dependencies": {
     "electron-debug": "^1.0.0"
   },
   "devDependencies": {
     "devtron": "^1.1.0",
-    "electron-builder": "^18.6.2",
+    "electron-builder": "^19.10.0",
     "electron": "^1.6.6",
     "xo": "^0.18.0"
   },
