@@ -21,7 +21,13 @@ function createMainWindow() {
 		height: 400
 	});
 
-	win.loadURL(`file://${__dirname}/index.html`);
+	const url = require('url').format({
+		protocol: 'file',
+		slashes: true,
+		pathname: require('path').join(__dirname, 'index.html')
+	});
+
+	win.loadURL(url);
 	win.on('closed', onClosed);
 
 	return win;
