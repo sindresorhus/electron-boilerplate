@@ -16,13 +16,13 @@
     "build": "electron-packager . --out=dist --asar --overwrite --all"
   },
   "dependencies": {
-    "electron-debug": "^1.0.0"
+    "electron-debug": "^1.2.0"
   },
   "devDependencies": {
-    "devtron": "^1.1.0",
-    "electron-packager": "^8.0.0",
-    "electron": "^1.6.6",
-    "xo": "^0.18.0"
+    "devtron": "^1.4.0",
+    "electron-packager": "^8.7.2",
+    "electron": "^1.6.11",
+    "xo": "^0.18.2"
   },
   "xo": {
     "envs": [
