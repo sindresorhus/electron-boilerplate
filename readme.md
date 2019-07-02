@@ -22,7 +22,7 @@ See [Caprine](https://github.com/sindresorhus/caprine) for a production app base
 
 ## Getting started
 
-Click the "Use this template" button.
+**Click the "Use this template" button.**
 
 Alternatively, create a new directory and then run:
 
