@@ -8,13 +8,13 @@ const debug = require('electron-debug');
 const contextMenu = require('electron-context-menu');
 const config = require('./config');
 const menu = require('./menu');
-const package = require('./package');
+const {build} = require('./package');
 
 unhandled();
 debug();
 contextMenu();
 
-app.setAppUserModelId(package.build.appId);
+app.setAppUserModelId(build.appId);
 
 // Uncomment this before publishing your first version.
 // It's commented out as it throws an error if there are no published versions.
