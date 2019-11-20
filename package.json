@@ -28,6 +28,7 @@
 		"electron-util": "^0.13.0"
 	},
 	"devDependencies": {
+		"devtron": "^1.4.0",
 		"electron": "^7.1.1",
 		"electron-builder": "^21.2.0",
 		"np": "^5.0.3",
