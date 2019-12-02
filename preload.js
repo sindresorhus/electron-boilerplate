@@ -1,1 +1,2 @@
-window.__devtron = {require: require, process: process};
+// You can remove this if you do have nodeIntegration enabled.
+require('electron-debug/preload');
