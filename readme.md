@@ -9,7 +9,7 @@ See [Caprine](https://github.com/sindresorhus/caprine) for a production app base
 ## Features
 
 - [`electron-builder`](https://www.electron.build) fully set up to create cross-platform builds
-- [Builds the app on Travis](https://www.electron.build/multi-platform-build.html)
+- [Builds the app on CI](https://www.electron.build/multi-platform-build.html)
 - [Silent auto-updates](https://www.electron.build/auto-update.html)
 - App menu that adheres to the system user interface guidelines
 - [Config handling](https://github.com/sindresorhus/electron-store)
