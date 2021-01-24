@@ -6,7 +6,6 @@ See [awesome-electron](https://github.com/sindresorhus/awesome-electron) for mor
 
 See [Caprine](https://github.com/sindresorhus/caprine) for a production app based on this boilerplate.
 
-
 ## Features
 
 - [`electron-builder`](https://www.electron.build) fully set up to create cross-platform builds
@@ -19,7 +18,6 @@ See [Caprine](https://github.com/sindresorhus/caprine) for a production app base
 - Easily publish new versions to GitHub Releases
 - And much more!
 
-
 ## Getting started
 
 **Click the "Use this template" button.**
@@ -27,11 +25,10 @@ See [Caprine](https://github.com/sindresorhus/caprine) for a production app base
 Alternatively, create a new directory and then run:
 
 ```
-$ curl -fsSL https://github.com/sindresorhus/electron-boilerplate/archive/master.tar.gz | tar -xz --strip-components 1
+$ curl -fsSL https://github.com/sindresorhus/electron-boilerplate/archive/main.tar.gz | tar -xz --strip-components 1
 ```
 
 There's also a [Yeoman generator](https://github.com/sindresorhus/generator-electron).
-
 
 ---
 
@@ -39,11 +36,9 @@ There's also a [Yeoman generator](https://github.com/sindresorhus/generator-elec
 
 ---
 
-
 # App Name
 
 > The best app ever
-
 
 ## Install
 
@@ -63,9 +58,7 @@ There's also a [Yeoman generator](https://github.com/sindresorhus/generator-elec
 
 [**Download**](https://github.com/user/repo/releases/latest) the `.exe` file.
 
-
 ---
-
 
 ## Dev
 
