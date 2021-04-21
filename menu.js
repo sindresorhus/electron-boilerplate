@@ -167,7 +167,7 @@ const otherTemplate = [
 	}
 ];
 
-const template = process.platform === 'darwin' ? macosTemplate : otherTemplate;
+const template = is.macos ? macosTemplate : otherTemplate;
 
 if (is.development) {
 	template.push({
