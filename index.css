@@ -7,18 +7,16 @@ body {
 
 /* Use OS default fonts */
 body {
-	font-family: -apple-system,
-		BlinkMacSystemFont,
+	font-family:
+		system-ui,
+		-apple-system,
 		'Segoe UI',
 		Roboto,
-		Oxygen-Sans,
-		Ubuntu,
-		Cantarell,
-		'Helvetica Neue',
+		Helvetica,
+		Arial,
 		sans-serif,
 		'Apple Color Emoji',
-		'Segoe UI Emoji',
-		'Segoe UI Symbol';
+		'Segoe UI Emoji';
 	text-rendering: optimizeLegibility;
 	font-feature-settings: 'liga', 'clig', 'kern';
 }
