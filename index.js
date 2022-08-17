@@ -31,26 +31,26 @@ app.setAppUserModelId('com.company.AppName');
 let mainWindow;
 
 const createMainWindow = async () => {
-	const win = new BrowserWindow({
+	const window_ = new BrowserWindow({
 		title: app.name,
 		show: false,
 		width: 600,
-		height: 400
+		height: 400,
 	});
 
-	win.on('ready-to-show', () => {
-		win.show();
+	window_.on('ready-to-show', () => {
+		window_.show();
 	});
 
-	win.on('closed', () => {
+	window_.on('closed', () => {
 		// Dereference the window
 		// For multiple windows store them in an array
 		mainWindow = undefined;
 	});
 
-	await win.loadFile(path.join(__dirname, 'index.html'));
+	await window_.loadFile(path.join(__dirname, 'index.html'));
 
-	return win;
+	return window_;
 };
 
 // Prevent multiple instances of the app

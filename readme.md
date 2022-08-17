@@ -24,8 +24,8 @@ See [Caprine](https://github.com/sindresorhus/caprine) for a production app base
 
 Alternatively, create a new directory and then run:
 
-```
-$ curl -fsSL https://github.com/sindresorhus/electron-boilerplate/archive/main.tar.gz | tar -xz --strip-components 1
+```sh
+curl -fsSL https://github.com/sindresorhus/electron-boilerplate/archive/main.tar.gz | tar -xz --strip-components 1
 ```
 
 There's also a [Yeoman generator](https://github.com/sindresorhus/generator-electron).
@@ -42,7 +42,7 @@ There's also a [Yeoman generator](https://github.com/sindresorhus/generator-elec
 
 ## Install
 
-*macOS 10.10+, Linux, and Windows 7+ are supported (64-bit only).*
+*macOS 10.13+, Linux, and Windows 7+ are supported (64-bit only).*
 
 **macOS**
 
@@ -66,15 +66,15 @@ Built with [Electron](https://electronjs.org).
 
 ### Run
 
-```
-$ npm install
-$ npm start
+```sh
+npm install
+npm start
 ```
 
 ### Publish
 
-```
-$ npm run release
+```sh
+npm run release
 ```
 
 After Travis finishes building your app, open the release draft it created and click "Publish".
